@@ -151,7 +151,7 @@ class MenuScene(Scene):
     def draw(self, surface):
         surface.fill((30, 30, 60))
         # draw title
-        title = self.font.render("My Game", True, (230, 230, 230))
+        title = self.font.render("Where's Baldo", True, (230, 230, 230))
         rect = title.get_rect(center=(surface.get_width() // 2, surface.get_height() // 4))
         surface.blit(title, rect)
 
